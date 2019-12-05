@@ -1,12 +1,9 @@
 {
-  "ignore": [
-    "README.md",
-    ".gitignore"
-  ],
+  "ignore": ["README.md", ".gitignore"],
   "commands": {
-    "Compile": "tronbox compile",
+    "Compile": "earthbox compile",
     "Migrate": "npm run migrate",
-    "Test contracts": "tronbox test",
+    "Test contracts": "earthbox test",
     "Run dev server": "npm run dev"
   },
   "hooks": {
