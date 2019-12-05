@@ -57,7 +57,7 @@ In order to run the dApp you don't have to change anything in the `earthbox.js` 
 
 ### Use your own private network
 
-`earthbox migrate` by default will use the `development` network that is set to use Tron Quickstart. In order to test the smart contracts and deploy them you must install Tron Quickstart.
+`earthbox migrate` by default will use the `development` network that is set to use Earth Quickstart. In order to test the smart contracts and deploy them you must install Earth Quickstart.
 
 1. [Install Docker](https://docs.docker.com/install/).
 
