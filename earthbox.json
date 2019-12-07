@@ -1,9 +1,9 @@
 {
   "ignore": ["README.md", ".gitignore"],
   "commands": {
-    "Compile": "earthbox compile",
+    "Compile": "earthcli compile",
     "Migrate": "npm run migrate",
-    "Test contracts": "earthbox test",
+    "Test contracts": "earthcli test",
     "Run dev server": "npm run dev"
   },
   "hooks": {

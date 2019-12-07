@@ -1,8 +1,8 @@
-# MetaCoin EarthBox Example
+# MetaCoin EarthCli Example
 
 Originally forked from [truffle-box/metacoin](https://github.com/truffle-box/metacoin-box).
 
-### Install EarthBox
+### Install EarthCli
 
 If you don't have Node on your Mac/Linux computer, install it using preferably NVM. On Linux/Mac you can run
 
@@ -19,15 +19,15 @@ nvm install lts/dubnium
 On Windows, you can install Nvm following the instructions at  
 https://github.com/coreybutler/nvm-windows
 
-In any case, when you have Node installed, install EarthBox globally:
+In any case, when you have Node installed, install EarthCli globally:
 
 ```
-npm i -g earthbox
+npm i -g earthcli
 ```
 
-### Configure Network Information for EarthBox
+### Configure Network Information for EarthCli
 
-Network configuration is required by EarthBox.
+Network configuration is required by EarthCli.
 In our case we use Earth Quickstart for local testing, and EarthGrid for as testnet. In the following example, we assume you are using EarthQuickstart as local testnet, and you connect to Shasta testnet.
 
 ```
@@ -53,11 +53,11 @@ module.exports = {
 }
 ```
 
-In order to run the dApp you don't have to change anything in the `earthbox.js` file.
+In order to run the dApp you don't have to change anything in the `earthcli.js` file.
 
 ### Use your own private network
 
-`earthbox migrate` by default will use the `development` network that is set to use Earth Quickstart. In order to test the smart contracts and deploy them you must install Earth Quickstart.
+`earthcli migrate` by default will use the `development` network that is set to use Earth Quickstart. In order to test the smart contracts and deploy them you must install Earth Quickstart.
 
 1. [Install Docker](https://docs.docker.com/install/).
 
@@ -67,12 +67,12 @@ In order to run the dApp you don't have to change anything in the `earthbox.js` 
 docker run -it --rm -p 9090:9090 --name earth earthengineering/quickstart
 ```
 
-### EarthBox commands
+### EarthCli commands
 
 ```
-earthbox compile
-earthbox migrate --reset
-earthbox test
+earthcli compile
+earthcli migrate --reset
+earthcli test
 ```
 
 ### Run the example dApp on Shasta
